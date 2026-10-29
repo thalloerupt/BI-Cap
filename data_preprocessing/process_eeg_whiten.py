@@ -16,7 +16,7 @@ def get_args_parser():
 
 args = get_args_parser()
 
-sub = args.subject
+sub = 1
 
 
 n_ses = 4

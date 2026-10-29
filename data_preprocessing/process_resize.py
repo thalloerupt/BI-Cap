@@ -10,6 +10,8 @@ def get_args_parser():
     return parser.parse_args()
 
 args = get_args_parser()
+
+
 if args.type == 'eeg':
     data_dir = 'data/things-eeg/Image_set'
     save_dir = 'data/things-eeg/Image_set_Resize'
